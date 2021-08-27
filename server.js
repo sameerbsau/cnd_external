@@ -18,7 +18,9 @@ const bodyParser = require('body-parser');
 // data is inserted into a template inside {{ }}
 const hbs = require('express-handlebars');
 
-// request is used to make REST calls to the backend microservice
+// request is used to make REST calls to the backend microservice test
+
+//mods
 // details here: https://www.npmjs.com/package/request
 var request = require('request');
 
